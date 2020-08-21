@@ -4,7 +4,12 @@ using System.Text;
 
 namespace Factory_Pattern
 {
-    class Circle
+    public class Circle : IShape
     {
+        public void draw()
+        {
+            Console.WriteLine("Circle Class initiated!");
+        }
     }
+
 }

@@ -4,7 +4,11 @@ using System.Text;
 
 namespace Factory_Pattern
 {
-    class Square
+    public class Square : IShape
     {
+        public void draw()
+        {
+            Console.WriteLine("Square Class initiated!");
+        }
     }
 }

@@ -4,7 +4,11 @@ using System.Text;
 
 namespace Factory_Pattern
 {
-    class Rectangle
+    public class Rectangle : IShape
     {
+        public void draw()
+        {
+            Console.WriteLine("Rectangle Class initiated!");
+        }
     }
 }

@@ -1,4 +1,5 @@
 ﻿using System;
+using Factory_Pattern.Enums;
 
 namespace Factory_Pattern
 {
@@ -6,7 +7,12 @@ namespace Factory_Pattern
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var factory=new ShapeFactory();
+            var shape1 = factory.GetShape(ShapeTypeEnum.Circle);
+            shape1.draw();
+            var shape2 = factory.GetShape(ShapeTypeEnum.Square);
+            shape2.draw();
+
         }
     }
 }

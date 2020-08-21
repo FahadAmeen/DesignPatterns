@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Factory_Pattern
 {
-    public interface Shape
+    public interface IShape
     {
         void draw();
     }
