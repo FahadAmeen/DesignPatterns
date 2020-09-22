@@ -7,7 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns", "DesignPat
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Creational Patterns", "Creational Patterns", "{A2BBC341-5854-4C77-A966-EB4EBD5A0209}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Factory Pattern", "Factory Pattern\Factory Pattern.csproj", "{58B97D9D-16B7-4CB4-8092-BCF7C77EC18F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Factory Pattern", "Factory Pattern\Factory Pattern.csproj", "{58B97D9D-16B7-4CB4-8092-BCF7C77EC18F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Abstract Factory Pattern", "Abstract Factory Pattern\Abstract Factory Pattern.csproj", "{BF9595F9-6A32-4673-852A-FB9DFF593440}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Builder Pattern", "Builder Pattern\Builder Pattern.csproj", "{FDB878C7-98BE-4FC8-AF88-1F3A47277AE7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,12 +27,22 @@ Global
 		{58B97D9D-16B7-4CB4-8092-BCF7C77EC18F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{58B97D9D-16B7-4CB4-8092-BCF7C77EC18F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{58B97D9D-16B7-4CB4-8092-BCF7C77EC18F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF9595F9-6A32-4673-852A-FB9DFF593440}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF9595F9-6A32-4673-852A-FB9DFF593440}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF9595F9-6A32-4673-852A-FB9DFF593440}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF9595F9-6A32-4673-852A-FB9DFF593440}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDB878C7-98BE-4FC8-AF88-1F3A47277AE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDB878C7-98BE-4FC8-AF88-1F3A47277AE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDB878C7-98BE-4FC8-AF88-1F3A47277AE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDB878C7-98BE-4FC8-AF88-1F3A47277AE7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{58B97D9D-16B7-4CB4-8092-BCF7C77EC18F} = {A2BBC341-5854-4C77-A966-EB4EBD5A0209}
+		{BF9595F9-6A32-4673-852A-FB9DFF593440} = {A2BBC341-5854-4C77-A966-EB4EBD5A0209}
+		{FDB878C7-98BE-4FC8-AF88-1F3A47277AE7} = {A2BBC341-5854-4C77-A966-EB4EBD5A0209}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1CCCF75E-6647-4760-8296-CB3F914EE4F5}
