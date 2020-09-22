@@ -15,11 +15,7 @@ namespace Singleton_Pattern
 
         public static Singleton GetInstance()
         {
-            if (_instance == null)
-            {
-                _instance = new Singleton();
-            }
-            return _instance;
+            return _instance ??= new Singleton();
         }
     }
 }
