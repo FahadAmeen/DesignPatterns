@@ -19,10 +19,8 @@ namespace Prototype_Pattern
         public Person DeepCopy()
         {
             Person clone = (Person) this.MemberwiseClone();
-            clone.IdInformation=new IdInformation(IdInformation.IdNumber);
-            if (Name != null) clone.Name = String.Copy(Name);
+            clone.IdInformation = new IdInformation(IdInformation.IdNumber);
             return clone;
-
         }
     }
 }
